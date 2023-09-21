@@ -2,7 +2,7 @@ package CurrencyConverter;
 
 import javax.swing.JOptionPane;
 public class function {
-    CurrencyConverter monedas = new CurrencyConverter();
+    CurrencyConverter coins = new CurrencyConverter();
     CurrencyConverterToCO pesos = new CurrencyConverterToCO();
 
     public void ConverterCoins(double Minput) {
@@ -13,19 +13,19 @@ public class function {
                 "Seleccion")).toString();
         switch(opcion) {
             case "De Pesos a Dólar":
-                monedas.ConvertCoToUSD(Minput);
+                coins.ConvertCoToUSD(Minput);
                 break;
             case "De Pesos a Euro":
-                monedas.ConvertCoToEUR(Minput);
+                coins.ConvertCoToEUR(Minput);
                 break;
             case "De Pesos a Libras":
-                monedas.ConvertCoToPound(Minput);
+                coins.ConvertCoToPound(Minput);
                 break;
             case "De Pesos a Yen":
-                monedas.ConvertCoToYen(Minput);
+                coins.ConvertCoToYen(Minput);
                 break;
             case "De Pesos a Won Coreano":
-                monedas.ConvertCoToWon(Minput);
+                coins.ConvertCoToWon(Minput);
                 break;
             case "De Dólar a Pesos":
                 pesos.ConvertUSDToCO(Minput);
