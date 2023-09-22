@@ -7,7 +7,7 @@ public class Main {
     public static void main (String[] args) {
 
         function coins = new function();
-        functionTemperature temperatura = new functionTemperature();
+        functionTemperature temperature = new functionTemperature();
 
         while(true) {
 
@@ -37,7 +37,7 @@ public class Main {
                     input = JOptionPane.showInputDialog("Ingresa el valor de la temperatura que deseas convertir ");
                     if(NumberValidator(input) == true) {
                         double Minput = Double.parseDouble(input);
-                        temperatura.ConverterTemperature(Minput);
+                        temperature.ConverterTemperature(Minput);
 
                         int respuesta = 0;
                         respuesta = JOptionPane.showConfirmDialog(null, "¿Desea continuar?");
