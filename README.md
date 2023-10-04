@@ -32,6 +32,6 @@ _Conversor de Temperatura_
 
 ## Créditos
 
-Este programa fue desarrollado por [Tu Nombre] como parte del proyecto [nombre del proyecto]. Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros en [tu correo electrónico].
+Este programa fue desarrollado por [Jose Julian Mosquera](https://github.com/JoseJulianMosqueraFuli). Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.
 
 ¡Gracias por usar el Conversor de Divisas y Temperatura!
